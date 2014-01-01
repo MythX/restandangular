@@ -20,8 +20,8 @@ public class TodoRepository {
 		
 	}
 	
-	public TodoRepository getInstance() {
-		return this.INSTANCE;
+	public static TodoRepository getInstance() {
+		return INSTANCE;
 	}
 	
 	public List<Todo> list() {
